@@ -1,0 +1,23 @@
+$bg-header:'../img/m-h-night.jpg';
+
+$font-map: (
+    "source": 'Source Sans Pro',
+    "hind": 'Hind',
+    "fresca": 'Fresca',
+);
+
+$font-1 : map-get($font-map, "source"); 
+$font-2 : map-get($font-map, "hind"); 
+$font-3 : map-get($font-map, "fresca"); 
+
+$btn_clr: #E3AC00;
+$highlight: #FF4E33;
+$bg_content: #3B3F50; 
+$grad_start: #DDA206;
+$grad_end: #953050;
+$link_clr: #fff;
+$second_text_clr: #C0C3CE;
+$header_clr: #fff;
+$bg_clr: #21232E;
+$t_header_clr: #fff;
+

@@ -1,0 +1,22 @@
+$bg-header:'../img/m-h-day.jpg';
+
+$font-map: (
+    "source": 'Source Sans Pro',
+    "hind": 'Hind',
+    "fresca": 'Fresca',
+);
+
+$font-1 : map-get($font-map, "source"); 
+$font-2 : map-get($font-map, "hind"); 
+$font-3 : map-get($font-map, "fresca"); 
+$btn_clr: #699900;
+$highlight: #14A0C7;
+$bg_content: #21232E; //bg_footer
+$grad_start: #649413;
+$grad_end: #2E5CD6;
+$link_clr: #fff;
+$second_text_clr: #C0C3CE;
+$header_clr: #000;
+$bg_clr: #fff;
+$t_header_clr: #fff;
+
