@@ -1,0 +1,191 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #777;
+}
+
+h1,h2{
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #bfba55;
+}
+
+hr{
+    height: 1px;
+    background-color: lightgrey;
+    border: none;
+}
+
+
+.tm-sidebar{
+    height: 86px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tm-sidebar-text{
+    font-size: 150%;
+    margin-right: 100px;
+    font-weight: 600;
+}
+
+
+.tm-main-nav-list{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    list-style-type: none;
+    font-size: larger;
+   
+}
+
+
+
+.tm-main-content {
+    background: no-repeat top url(../img/home-bg.jpg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+   
+}
+
+.tm-blog-img{
+    display: block;
+    width: 100%;
+}
+
+
+.tm-main-content-h h1{
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
+
+.tm-main-content p{
+    margin-top: 24px;
+    color: #bfba55;
+}
+
+.tm-main-content-btn {
+    margin-top: 54px;
+    width: 160px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 11px;
+    font-weight: 700;
+    border: none;
+    outline:none;
+}
+
+.tm-content{
+    justify-content: center;
+    margin: 0 auto;
+    width: 68%;
+}
+
+.tm-content-title{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.author-img{
+    
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;     
+}
+
+
+.tm-blog-author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 352px;
+    margin-bottom: 28px;
+} 
+
+.tm-blog-text{
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 200;
+}
+
+.tm-blog-btn{
+    width: 160px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #fff;
+    font-size: 11px;
+    border: 1px solid #777;
+    font-size: 14px;
+    font-weight: 500;
+    outline:none;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.tm-space-hr{
+    margin-top: 70px;
+}
+
+footer{
+    font-size: 16px;
+    height: 330px;
+    display: flex; 
+    background-color: #000;
+    color: #fff;
+    
+}
+
+footer h2{
+    color: #fff;
+    font-weight: bold;
+}
+
+.tm-content-footer{
+  
+    display: flex;
+    /*  */
+    
+    justify-content: space-between;
+    width: 65%;
+    margin: 7% auto;
+  
+   
+    /*  */
+    
+}
+
+.tm-about{
+    width: 400px;
+}
+
+.tm-about-text,
+.tm-adress,
+.tm-phone{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tm-about-text{
+    line-height: 175%;
+}
+
+
+
